@@ -1,0 +1,24 @@
+.WeatherTemperature {
+    color: #000;
+  }
+  
+  .unit {
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .selectCelsuis,
+  .selectFahrenheit {
+    font-weight: bold;
+  }
+  
+  .clickCelsuis,
+  .clickFahrenheit {
+    opacity: 0.6;
+  }
+  
+  .clickCelsuis:hover,
+  .clickFahrenheit:hover {
+    color: #ec6e4c;
+  }

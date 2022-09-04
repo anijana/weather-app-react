@@ -1,0 +1,17 @@
+.WeatherForecast {
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .WeatherForecast-min {
+    opacity: 0.6;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+
+.row{
+  cursor: pointer;
+}  
+.col{
+  cursor: pointer;
+}

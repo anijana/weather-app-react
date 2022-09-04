@@ -1,0 +1,74 @@
+.Weather {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 3px solid #ec6e4c;
+    border-radius: 10px;
+  }
+  
+  .Weather ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Weather li {
+    list-style: none;
+  }
+  
+  #searchForm {
+    max-width: 550px;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .form-control:focus {
+    border-color: #8a888a;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset,
+      0px 0px 8px rgba(58, 57, 58, 0.5);
+  }
+  
+  .search-btn {
+    color: #7a757d;
+    border: 1px solid #7a757d;
+    margin: 0 10px 0 10px;
+  }
+  
+  .search-btn:hover {
+    color: #ec6e4c;
+    background-color: #fff;
+    border: 1px solid #7a757d;
+  }
+  
+  .search-btn ::after {
+    color: #7a757d;
+    background-color: #fff;
+  }
+  
+  .currentBtn {
+    font-size: 40px;
+    color: #7a757d;
+    margin: 0 auto;
+    margin-left: 10px;
+  }
+  
+  .currentBtn:hover {
+    color: #ec6e4c;
+  }
+  
+  .Weather .icon {
+    margin-right: 50px;
+  }
+  
+  .Weather .temperature {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  
+  .Weather .unit {
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    line-height: 1;
+    top: -34px;
+    margin-left: 5px;
+  }

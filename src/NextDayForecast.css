@@ -1,0 +1,15 @@
+.NextDayForecast {
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .NextDayForecast-temperatures {
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .NextDayForecast-min {
+    opacity: 0.6;
+    margin-left: 5px;
+    cursor: pointer;
+  }
